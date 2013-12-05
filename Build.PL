@@ -17,14 +17,13 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "SQ",
-  "dist_version" => "0.0.1",
+  "dist_version" => "0.0.2",
   "license" => "mit",
   "module_name" => "SQ",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "Exporter" => 0,
-    "parent" => 0,
+    "Exporter" => "5.57",
     "strict" => 0,
     "vars" => 0,
     "warnings" => 0

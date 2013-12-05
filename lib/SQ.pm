@@ -3,10 +3,10 @@ package SQ;
 use strict;
 use warnings;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 
-use parent 'Exporter';
+use Exporter 5.57 'import';
 
 use vars ( qw( @EXPORT $s $q $sq) );
 
@@ -26,7 +26,7 @@ SQ - easily have a string containing single quote (') from the command line.
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 SYNOPSIS
 

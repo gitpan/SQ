@@ -3,7 +3,9 @@ package SQ;
 use strict;
 use warnings;
 
-our $VERSION = '0.0.2';
+use 5.008;
+
+our $VERSION = '0.0.3';
 
 
 use Exporter 5.57 'import';
@@ -26,7 +28,7 @@ SQ - easily have a string containing single quote (') from the command line.
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SYNOPSIS
 

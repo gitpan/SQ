@@ -5,7 +5,7 @@ use warnings;
 
 use 5.008;
 
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';
 
 
 use Exporter 5.57 'import';
@@ -22,13 +22,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 SQ - easily have a string containing single quote (') from the command line.
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.4
 
 =head1 SYNOPSIS
 
@@ -39,8 +41,6 @@ version 0.0.3
 This module can be used from the command line to provide several package-scope
 variables that contain a single quote - C<$s> C<$q> and C<$sq> . It should
 not be used from a program or a module written in a text editor.
-
-=encoding utf8
 
 =head1 VERSION
 

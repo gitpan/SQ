@@ -27,4 +27,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=SQ
   repository: https://github.com/shlomif/perl-SQ.git
-version: 0.0.3
+version: 0.0.4

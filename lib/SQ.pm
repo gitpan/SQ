@@ -5,16 +5,16 @@ use warnings;
 
 use 5.008;
 
-our $VERSION = '0.0.4';
+our $VERSION = '0.0.5';
 
 
 use Exporter 5.57 'import';
 
-use vars ( qw( @EXPORT $s $q $sq) );
+use vars ( qw( @EXPORT $S) );
 
-@EXPORT = ( qw($s $q $sq) );
+@EXPORT = ( qw($S) );
 
-$s = $q = $sq = q#'#;
+$S = q#'#;
 
 1;
 
@@ -30,16 +30,16 @@ SQ - easily have a string containing single quote (') from the command line.
 
 =head1 VERSION
 
-version 0.0.4
+version 0.0.5
 
 =head1 SYNOPSIS
 
-    $ perl -lp -MSQ -e 's/$s(\w+)$s/$1/g'
+    $ perl -lp -MSQ -e 's/$S(\w+)$S/$1/g'
 
 =head1 DESCRIPTION
 
-This module can be used from the command line to provide several package-scope
-variables that contain a single quote - C<$s> C<$q> and C<$sq> . It should
+This module can be used from the command line to provide a package-scope
+variables that contain a single quote - C<$S> . It should
 not be used from a program or a module written in a text editor.
 
 =head1 VERSION
@@ -48,15 +48,7 @@ Version 0.0.1
 
 =head1 EXPORTS
 
-=head2 $s
-
-Contains a string of the single quote - “C<'>”.
-
-=head2 $q
-
-Contains a string of the single quote - “C<'>”.
-
-=head2 $sq
+=head2 $S
 
 Contains a string of the single quote - “C<'>”.
 
